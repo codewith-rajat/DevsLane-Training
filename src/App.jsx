@@ -20,10 +20,10 @@ function App() {
         </div>
         <div className="bg-white mx-40 flex flex-wrap justify-center gap-2">
           <Items
-            image="https://images.unsplash.com/photo-1570784332176-fdd73da66f03?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3VwfGVufDB8fDB8fHww"
+            image="https://m.media-amazon.com/images/I/717-CcECtuL._AC_UL480_FMwebp_QL65_.jpg"
             name="Stylish Cups"
             category="Cups"
-            price="79.99"
+            price="9.99"
             />
           <Items
             image="https://images.unsplash.com/photo-1579446565308-427218a2c60e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Zm9vdHdlYXJ8ZW58MHx8MHx8fDA%3D"
@@ -32,19 +32,13 @@ function App() {
             price="109.99"
           />
           <Items
-            image="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Zm9vdHdlYXJ8ZW58MHx8MHx8fDA%3D"
+            image="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/402200/05/sv01/fnd/IND/fmt/png/X-Ray-2-Square-Superior-Comfort-Sneakers"
             name="Stylish Sneakers"
             category="Footwear"
             price="99.99"
           />
           <Items
-            image="https://images.unsplash.com/photo-1570784332176-fdd73da66f03?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3VwfGVufDB8fDB8fHww"
-            name="Stylish Cups"
-            category="Cups"
-            price="79.99"
-          />
-          <Items
-            image="https://images.unsplash.com/photo-1561909848-977d0617f275?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGZvb3R3ZWFyfGVufDB8fDB8fHww"
+            image="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/402185/03/sv01/fnd/IND/fmt/png/Court-Shatter-Men's-Sportstyle-Sneakers"
             name="Stylish Sneakers"
             category="Footwear"
             price="59.99"
@@ -56,40 +50,46 @@ function App() {
             price="49.99"
           />
           <Items
+            image="https://m.media-amazon.com/images/I/61EroGuU16L._AC_UL480_FMwebp_QL65_.jpg"
+            name="Stylish Cups"
+            category="Cups"
+            price="19.99"
+          />
+          <Items
             image="https://plus.unsplash.com/premium_photo-1679513691474-73102089c117?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YW1hem9uJTIwJTIwcHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D"
             name="Stylish Headphones"
             category="Headphones"
             price="49.99"
           />
           <Items
-            image="https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c2hpcnRzfGVufDB8fDB8fHww"
+            image="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/630988/01/mod04/fnd/IND/fmt/png/PUMA-x-NACHO-Men's-Relaxed-Fit-Tee"
             name="Stylish Shirts"
             category="Shirt"
             price="99.99"
           />
           <Items
-            image="https://images.unsplash.com/photo-1620012253295-c15cc3e65df4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHNoaXJ0c3xlbnwwfHwwfHx8MA%3D%3D"
+            image="https://m.media-amazon.com/images/I/71pXblT9X7L._AC_UL480_FMwebp_QL65_.jpg"
+            name="Stylish Cups"
+            category="Cups"
+            price="20.99"
+          />
+          <Items
+            image="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/777706/02/mod01/fnd/IND/fmt/png/Morocco-2025-Men's-Football-Away-Jersey"
             name="Stylish Shirts"
             category="Shirt"
             price="59.99"
           />
           <Items
-            image="https://images.unsplash.com/photo-1570784332176-fdd73da66f03?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3VwfGVufDB8fDB8fHww"
-            name="Stylish Cups"
-            category="Cups"
-            price="79.99"
-          />
-          <Items
-            image="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Zm9vdHdlYXJ8ZW58MHx8MHx8fDA%3D"
+            image="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/402538/02/sv01/fnd/IND/fmt/png/CA-Pro-Classic-Leather-Sneakers"
             name="Stylish Sneakers"
             category="Footwear"
             price="99.99"
           />
           <Items
-            image="https://images.unsplash.com/photo-1570784332176-fdd73da66f03?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3VwfGVufDB8fDB8fHww"
+            image="https://m.media-amazon.com/images/I/71es0+xr4NL._AC_UL480_FMwebp_QL65_.jpg"
             name="Stylish Cups"
             category="Cups"
-            price="79.99"
+            price="24.99"
           />
 
         </div>
