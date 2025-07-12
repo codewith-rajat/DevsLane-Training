@@ -2,20 +2,25 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import allData from './AllData';
 import { Link } from 'react-router-dom';
+import { IoMdArrowRoundBack } from "react-icons/io";
+
 function Details() {
     const params = useParams();
     const id = params.id;
 
     let clickedItem;
-    for(let i=0;i<allData.length;i++){
+    for (let i = 0; i < allData.length; i++) {
         const p = allData[i];
-        if(id==p.id){
-            clickedItem=p;
+        if (id == p.id) {
+            clickedItem = p;
             break;
         }
     }
 
-    return (
+    return (<>
+        <div className='bg-stone-100' >
+            <Link className='text-red-500 text-4xl' to={'/'} ><IoMdArrowRoundBack /></Link>
+        </div>
         <div className='flex justify-center item-center h-screen bg-stone-100'>
             <div className='flex bg-white item-center w-3/4 h-3/4 my-20'>
                 <div className='p-8 w-1/2'>
@@ -29,12 +34,10 @@ function Details() {
                         <input type="text" value="1" className='border-2 border-gray-200 w-12 p-1' />
                         <button className='ml-2 bg-red-500 text-white px-12 py-2 rounded-lg' >Add to Cart</button>
                     </div>
-                    <button className='bg-red-500 text-white px-4 py-2 mt-4 rounded-lg' >
-                        <Link to={'/'} >Back to Home</Link>
-                    </button>
                 </div>
             </div>
         </div>
+    </>
     );
 }
 

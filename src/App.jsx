@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import {Routes,Route} from 'react-router-dom'
 import Details from './Components/Details';
 import ItemListPage from './Components/ItemListPage';
-
 function App() {
   const path = window.location.pathname;
   return (

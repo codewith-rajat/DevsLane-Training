@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import ItemsList from './ItemsList';
 import allData from './AllData';
+import NoMatching from './NoMatchingItems';
 function ItemListPage() {
     const [query, setQuery] = useState('');
     const [sort, setSort] = useState('default');
@@ -52,7 +53,8 @@ function ItemListPage() {
                 </select>
             </div>
             <div className="bg-white mx-40">
-                <ItemsList products={data} />
+                {data.length>0 && <ItemsList products={data} />}
+                {data.length==0 && <NoMatching>No Matching Results Found</NoMatching>}
             </div>
             <div className="flex mx-40 px-28 py-16 bg-white  gap-2">
 
